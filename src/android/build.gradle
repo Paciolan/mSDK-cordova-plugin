@@ -39,12 +39,8 @@ allprojects {
         google()
         jcenter()
         maven {
-                url "s3://paciolan.mobilesdk/releases"
-                credentials(AwsCredentials) {
-                    accessKey ""
-                    secretKey ""
-                }
-            }
+            url "http://paciolan.mobilesdk.s3.amazonaws.com/releases"
+        }
     }
 }
 
