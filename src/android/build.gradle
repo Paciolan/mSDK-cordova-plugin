@@ -40,10 +40,10 @@ allprojects {
         jcenter()
         maven {
             url "http://paciolan.mobilesdk.s3.amazonaws.com/releases"
-        }
+            }
     }
 }
 
 dependencies {
-    implementation 'com.paciolan:mobilesdk:2.0.1'
+    implementation 'com.paciolan:mobilesdk:2.0.5'
 }

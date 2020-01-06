@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin id="paciolansdk" version="2.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="paciolansdk" version="2.0.5" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>PaciolanSDK</name>
     <description>
         A cordova plugin to use the Paciolan ticketing SDK
@@ -40,9 +40,9 @@
         <header-file src="src/ios/InstantiateViewControllerError.h" />
         <source-file src="src/ios/InstantiateViewControllerError.m" />
         <pods-config ios-min-version="9.0">
-            <source url="https://github.com/Paciolan/mSDK-specs.git"/>
+            <source url="https://github.com/Paciolan/mSDK-specs.git" />
             <source url="https://github.com/CocoaPods/Specs.git"/>
         </pods-config>
-        <pod name="PaciolanSDK" version="2.0.1" />
+        <pod name="PaciolanSDK" version="2.0.5" />
     </platform>
 </plugin>
