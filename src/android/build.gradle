@@ -5,6 +5,8 @@ android {
         // applicationId "com.example.myapplication"
         minSdkVersion 21
         targetSdkVersion 28
+        renderscriptTargetApi 21
+        renderscriptSupportModeEnabled true
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
