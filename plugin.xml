@@ -39,7 +39,7 @@
         <source-file src="src/ios/CDVPaciolanSDK.m" />
         <header-file src="src/ios/InstantiateViewControllerError.h" />
         <source-file src="src/ios/InstantiateViewControllerError.m" />
-        <pods-config ios-min-version="9.0">
+        <pods-config ios-min-version="10.0">
             <source url="https://github.com/Paciolan/mSDK-specs.git" />
             <source url="https://github.com/CocoaPods/Specs.git"/>
         </pods-config>
