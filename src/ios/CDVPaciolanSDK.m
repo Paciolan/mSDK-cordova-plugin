@@ -23,7 +23,7 @@ PaciolanSDKViewController *viewController = nil;
     NSString* className = [command argumentAtIndex: 0];
     
     viewController = [self tryInstantiatePaciolanViewWithProps: className];
-    [viewController setModalPresentationStyle: UIModalPresentationFullScreen];
+    
     CDVAppDelegate* appDelegate = [[UIApplication sharedApplication] delegate];
     [appDelegate.window.rootViewController presentViewController:viewController animated:YES completion:nil];
     
