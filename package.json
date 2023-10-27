@@ -1,6 +1,6 @@
 {
   "name": "paciolansdk",
-  "version": "4.3.4",
+  "version": "4.5.2",
   "cordova": {
     "id": "paciolansdk",
     "platforms": [
